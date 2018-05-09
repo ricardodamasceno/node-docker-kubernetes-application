@@ -1,0 +1,14 @@
+{
+  "name": "express-application",
+  "version": "1.0.0",
+  "description": "node-express application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ricardo Damasceno",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
