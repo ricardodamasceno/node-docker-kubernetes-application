@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ui-application
+spec:
+  containers:
+    - name: node-express-application
+      image: ricardodpaiva/node-express
+      ports:
+        - containerPort: 80

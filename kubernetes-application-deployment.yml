@@ -1,0 +1,15 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: ui-application-deployment
+spec:
+  template:
+    metadata:
+      labels:
+        name: ui-application
+    spec:
+      containers:
+        - name: node-express-application
+          image: ricardodpaiva/node-express
+          ports:
+            - containerPort: 80
